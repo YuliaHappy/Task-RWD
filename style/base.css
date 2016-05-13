@@ -1,0 +1,64 @@
+.header {
+  background: red;
+}
+
+.ul-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.li-item {
+  margin: 0.5rem;
+  color: green;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.li-href {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+.li-href:hover {
+  color: white;
+  background: grey;
+}
+
+.section-container {  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.section-item {
+  border: 0.15rem ridge #CCCCCC;
+  padding: 0.5rem;
+  border-radius: 1.5rem 1.5rem;
+  vertical-align:middle;
+  margin: 0.5rem;
+  flex: 1 1 31%;
+}
+
+.img {   
+/*   background-size: cover; */
+/*   background-image: url(http://www.anyastarpro.com/wp-content/uploads/2015/07/news-624859_640.png); */
+  max-width: 100%;
+  
+}
+
+.button {
+  float: right;
+}
+
+.footer {
+  background: #CCCCCC;
+  text-align: right;
+}
