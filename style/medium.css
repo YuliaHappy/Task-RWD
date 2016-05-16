@@ -3,7 +3,8 @@
 }
 
 .item-img, .item-text-first {
-  flex: 1 1 45%;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .item-text-second {

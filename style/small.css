@@ -5,3 +5,29 @@
 .section-item {
     flex: 1 100%;
 }
+
+.ul-container {
+	flex-direction: column;
+  width:100%;
+}
+
+.li-item {
+  margin: 0rem;
+  font-size: 1.3rem;
+}
+
+.li-href {
+	margin-left: 0.2rem;
+  margin-right: 0.2rem;
+	margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  padding: 0.1rem;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.sep {
+  width:95%;
+  margin-top: 0;
+  margin-bottom: 0;
+}

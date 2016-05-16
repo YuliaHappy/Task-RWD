@@ -1,5 +1,13 @@
+body {  
+  background: #F0E9FB;
+}
+
 .header {
-  background: red;
+  background: #D1BDED;
+  border-radius: 0.5rem;
+  margin-top: 0,2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .ul-container {
@@ -14,49 +22,63 @@
 }
 
 .li-item {
-  margin: 0.5rem;
-  color: green;
-  font-size: 0.7rem;
+  margin: 0.2rem;
+  font-size: 1rem;
   text-align: center;
 }
 
 .li-href {
   display: block;
-  padding: 1rem;
+  padding: 0.8rem;
   text-decoration: none;
-  border-radius: 0.5rem;
+  color: #69439F;
 }
 
 .li-href:hover {
-  color: white;
-  background: grey;
+  color: #F0E9FB;
+  background: #AE90D7;
+  border-radius: 0.5rem;
 }
 
 .section-container {  
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  
+  border-radius: 0.5rem;
+  margin: 0.3rem;
 }
 
 .section-item {
-  border: 0.15rem ridge #CCCCCC;
+  border: 0.15rem ridge #8965BB;
   padding: 0.5rem;
   border-radius: 1.5rem 1.5rem;
   vertical-align:middle;
   margin: 0.5rem;
   flex: 1 1 31%;
+  
+  background: #D1BDED;
 }
 
 .img {   
   max-width: 100%;
-  
 }
 
 .button {
   float: right;
+  
+  width: 4.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.15rem ridge #8965BB;
+  background: #F0E9FB;
 }
 
 .footer {
-  background: #CCCCCC;
+  background: #D1BDED;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   text-align: right;
+  padding: 0.5rem;
 }
