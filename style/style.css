@@ -1,6 +1,6 @@
 /* без медиазапроса, для всех*/
 @import url(base.css);	
 /*для узкоформатных мониторов, планшетов или TV*/
-@import url(medium.css) (min-width: 481px) and (max-width:768px);
+@import url(medium.css) (min-width: 481px) and (max-width:875px);
 /*для мобильных устройств*/
 @import url(small.css) (max-width: 480px);
