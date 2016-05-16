@@ -5,7 +5,8 @@
 }
 
 .section-item {
-  min-height: 20rem;
+  height: auto;
+  
 }
 
 .item-img, .item-text-first {

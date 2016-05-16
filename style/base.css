@@ -70,7 +70,7 @@ body {
   flex: 1 1 31%;
   background: #D1BDED;
   
-  min-height: 45rem;
+  height: 45rem;
 }
 
 .img {   
